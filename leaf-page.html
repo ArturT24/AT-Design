@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>newaves-page</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/490e51b812.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .topbar {
+            background-image: url("leaf-banner.jpg");
+            background-size: cover;
+            background-position: center;
+            padding-bottom: 30%;
+        }
+
+        .list1 li {
+            font-size: 1.5em;
+            color: rgb(116, 116, 116);
+        }
+
+        .list1 li:hover {
+            color: #EC7823;
+        }
+
+        .section2 h5 {
+            padding-bottom: 3%;
+            border-bottom: 5px solid rgb(223, 171, 92);
+        }
+
+        .red {
+            color: rgb(223, 171, 92);
+        }
+
+        .image3 {
+            padding-bottom: 2%;
+            border-bottom: 5px solid rgb(223, 171, 92);
+        }
+
+        #line {
+            padding-bottom: 2%;
+            border-bottom: 5px solid rgb(223, 171, 92);
+        }
+
+        .section4 h3 {
+            color: rgb(116, 116, 116);
+        }
+
+        .section4 h4 {
+            color: rgb(223, 171, 92);
+        }
+
+        .end {
+            margin-top: 15%;
+            color: gray;
+            margin-bottom: 3%;
+        }
+
+        .button1 {
+            width: 12%;
+            border: 4px solid rgb(223, 171, 92);
+            border-radius: 10px;
+            margin-left: 44%;
+            margin-top: 2%;
+        }
+
+        .button1:hover {
+            width: 12%;
+            border: 4px solid rgb(223, 171, 92);
+            background-color: rgb(223, 171, 92);
+            border-radius: 10px;
+            margin-left: 44%;
+            margin-top: 2%;
+        }
+
+        .button1:hover h3 {
+            color: white;
+        }
+
+        .button1 h3 {
+            color: rgb(223, 171, 92);
+        }
+        .final a{
+            color: rgb(223, 171, 92);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid topbar pt-3 ps-5 pe-5">
+        <div class="row-lg logo d-flex justify-content-between">
+            <div class="col-lg w-50">
+                <a href="portfolio-home.html"><img src="at-design-white.png" alt="" width="30%" height="auto"></a>
+            </div>
+
+            <div class="col-lg w-25 mt-4 list1">
+                <ul class="d-flex  justify-content-end list-unstyled">
+                    <a href="" class="text-decoration-none">
+                        <li class="ps-4" style="font-size: 1.8vw;">Projects</li>
+                    </a>
+                    <a href="at-about.html" class="text-decoration-none">
+                        <li class="ps-4" style="font-size: 1.8vw;">About</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2 container-fluid p-lg-5 p-2">
+        <div class="row-lg">
+            <div class="col-lg">
+                <h1 style="font-size: 2.5vw">LEAF CAMPING APP</h1>
+                <h3 style="font-size: 2.0vw" class="red">UX/UI Design</h3>
+                <h5 style="font-size: 1.4vw" class="red">January 2024</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="section3 container-fluid ps-lg-5 pe-lg-5 pb-lg-5">
+        <div class="row-lg d-flex justify-content-lg-center">
+            <div class="col-6 me-lg-3 me-1 ms-lg-3">
+                <h2 style="font-size: 2vw">Project Vision</h2>
+                <p style="font-size: 1.3vw">Leaf Camping is a camping deticated app with the main focus of selling
+                    essentials. It also helps users to plan their trips with a personalized guide, possible by taking a
+                    quick quiz that will present users a recommended location based on their choices, including also
+                    essential recommendations on the app’s shop.</p>
+            </div>
+            <div class="col-6">
+                <h2 style="font-size: 2vw">Challenges</h2>
+                <p style="font-size: 1.3vw"><b><span class="red">a)</span></b> Make a visual appealing product with a
+                    simple design.</p>
+                <p style="font-size: 1.3vw"><b><span class="red">b)</span></b> Create a user friendly product with a
+                    simple navigation.</p>
+                <p style="font-size: 1.3vw"><b><span class="red">c)</span></b> Create a “one way” experience, where the
+                    user can start and end their task with a single run.</p>
+            </div>
+        </div>
+        <div class="row-lg pt-lg-3">
+            <div class="col-lg image3">
+                <img src="leaf-show.png" alt="" width="100%" height="auto">
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="section4 container-fluid text-center d-flex flex-wrap justify-content-center ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-2">
+        <div class="row-lg w-50">
+            <div class="col-lg">
+                <h1 style="font-size: 2vw">Define the goals</h1>
+                <p style="font-size: 1.3vw">With the help of an affinitty diagram, I started to list some features that
+                    the product could include, that could give a reason for users to use the app.
+                    After listed some features I organized them in 3 topics, accessibility, help and engagement, and at
+                    the beggining those were the 3 main points that the product would focus in.</p>
+            </div>
+        </div>
+        <div class="row-lg" id="line">
+            <div class="col-lg d-lg-flex justify-content-lg-center pt-lg-5">
+                <img src="leaf-show-1.png" alt="" width="30%" height="30%">
+                <img src="leaf-show-2.png" alt="" width="50%" height="50%">
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="section4 container-fluid text-center d-flex flex-wrap justify-content-center ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-2">
+        <div class="row-lg w-50">
+            <div class="col-lg text-lg-center">
+                <h1 style="font-size: 2vw">Meet the Users</h1>
+                <p style="font-size: 1.3vw">Based on the 3 goals created in the past research, I created 2 different
+                    User Personas, imagining what type of users would use the app and would be their goals and problems.
+                </p>
+            </div>
+        </div>
+        <div class="row-lg pt-lg-5">
+            <div class="col-lg">
+                <img src="leaf-meet.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="row-lg w-50 pt-lg-5">
+            <div class="col-lg text-lg-center">
+                <h3 style="font-size: 1.3vw">After creating the personas, I created two goal statements to clarify the
+                    goals that I would need to follow during the process.</h3>
+            </div>
+        </div>
+        <div class="row-lg pt-lg-5" id="line">
+            <div class="col-lg text-lg-start">
+                <h4 style="font-size: 1.6vw">Goal Statement 1:</h4>
+                <p style="font-size: 2vw"><i>Our camping app will let users <b>go prepared for their camping
+                            experience</b> which will affect <b> people choose and buy the products</b> they need by
+                        giving them <b>recommendations and the ability to buy in app</b> the essentials they need.</i>
+                </p>
+            </div>
+            <div class="row-lg pt-lg-5">
+                <div class="col-lg text-lg-start">
+                    <h4 style="font-size: 1.6vw">Goal Statement 2:</h4>
+                    <p style="font-size: 2vw"><i>Our camping app will let users <b> prepare their camping experience
+                            </b> which will affect how people <b> choose camping destinations and get to know the
+                                essentials they need </b> by giving <b> recommendations based on certain factors </b>
+                            like number of participants, how many days, their goals, etc...</i> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="section5 container-fluid d-flex flex-wrap justify-content-center text-center ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-2">
+        <div class="row-lg w-50">
+            <div class="col-lg">
+                <h1 style="font-size: 2vw">User Journey</h1>
+                <p style="font-size: 1.3vw">With the goals well defined, I draw a user journey based on the main task
+                    the users could take, taking our quiz planner to get a personalized trip recommendation including
+                    some essentials that could be bought in the app’s shop. All this in order to know what screens
+                    should I create in the next steps.</p>
+            </div>
+        </div>
+        <div class="section5v2 container-fluid ps-lg-5 pe-lg-5">
+            <div class="row-lg" id="line">
+                <div class="col-lg d-lg-flex justify-content-lg-center">
+                    <img src="user-flow.png" alt="" width="80%" height="80%">
+                </div>
+            </div>
+        </div>
+
+        <div class="section6 container-fluid ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-lg-5 pt-2">
+            <div class="row-lg text-center pb-lg-5 pb-2">
+                <div class="col-lg">
+                    <h1 style="font-size: 2vw">Sketches and Wireframes</h1>
+                </div>
+            </div>
+            <div class="row-lg d-flex justify-content-center">
+                <div class="col-lg">
+                    <h3 style="font-size: 1.6vw" class="red">Home Page</h3>
+                    <img src="leaf-sketch-home.png" alt="" width="70%" height="auto">
+                </div>
+                <div class="col-lg">
+                    <h3 style="font-size: 1.6vw" class="red">Planner Quiz</h3>
+                    <img src="leaf-sketch-quiz.png" alt="" width="70%" height="auto">
+                </div>
+            </div>
+             <div class="row-lg d-flex justify-content-center pt-lg-5 pt-2" id="line">
+                    <div class="col-lg">
+                        <h3 style="font-size: 1.6vw" class="red">Shop</h3>
+                        <img src="leaf-sketch-shop.png" alt="" width="70%" height="auto">
+                    </div>
+                    <div class="col-lg">
+                        <h3 style="font-size: 1.6vw" class="red">Check-Out</h3>
+                        <img src="leaf-sketch-check.png" alt="" width="70%" height="auto">
+                    </div>
+             </div>
+            </div>
+
+            <div class="section7 container-fluid ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-2">
+                <div class="row-lg" id="line">
+                    <div class="col-lg text-center">
+                        <h1 style="font-size: 2vw">Branding</h1>
+                        <p style="font-size: 1.3vw" class="w-50 mx-auto pb-3">For this project I also created a visual identity, where I used 3 elements to guide me while building the logo, a leaf, a tent and ramification, all of them are connected to camping, and this “ramification” theme refers to the steps you take while taking the quiz, where each answer you choose will guide you through a differente path to a final destination recommendation.</p>
+                        <img src="leaf-process.jpg" alt="" width="80%" height="auto">
+                    </div>
+                </div>
+            </div>
+
+        <div class="final container-fluid ps-lg-5 ps-2 pe-lg-5 pe-2 pb-lg-5 pb-2 pt-2">
+            <div class="row-lg text-center">
+                <div class="col-lg">
+                    <h1 style="font-size: 2vw" class="pb-lg-5 pb-2">Final Product</h1>
+                    <img src="leaf-final.png" alt="" width="100%" height="auto">
+                    <a href="https://www.figma.com/proto/TlJ1huzTxW441FXvScbWVT/Untitled?node-id=92-2&t=2MR138ODNhpHjRkx-1&scaling=scale-down&content-scaling=fixed&page-id=86%3A2&starting-point-node-id=92%3A2"><h3 style="font-size: 1.5vw">view in figma</h3></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-lg-5 pt-2">
+            <div class="row-lg text-center">
+                <a class="text-decoration-none" href="leaf-page.html">
+                    <div class="col-lg button1 pt-1">
+                        <h3 style="font-size: 1.7vw">Back to Top</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="end container-fluid-lg text-center">
+            <h4 style="font-size: 1.5vw;"><b>© Artur Tsyutsyak</b></h4>
+            <h4 style="font-size: 1.5vw;">2024</h4>
+            <h4 style="font-size: 1.5vw;">All rights reserved</h4>
+        </div>
+</body>
+
+</html>
