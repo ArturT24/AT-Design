@@ -1,0 +1,54 @@
+.background{
+    background: rgb(63,218,214);
+    background: linear-gradient(90deg, rgba(63,218,214,1) 26%, rgba(51,85,223,1) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: "Open Sans";
+}
+.mainScreen{
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+.input1{
+padding: 10px;
+border-radius: 10px;
+border: 2px solid rgb(121, 201, 225) ;
+
+}
+.button1{
+border: 0px;
+background-color: rgb(121, 201, 225);
+color: white;
+padding: 10px;
+border-radius: 10px;
+}
+.button2{
+    border: 0px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button2:hover{
+    background-color: rgb(201, 19, 19);
+}
+.button1:hover{
+    background-color: rgb(73, 159, 185);
+}   
+.itemButton{
+    border-radius: 10px;
+    background-color: rgb(121, 201, 225);
+    border: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.itemButton:hover{
+    background-color: rgb(73, 159, 185);
+}
+.warnText{
+    color: rgb(201, 19, 19);
+}
